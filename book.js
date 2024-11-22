@@ -1,7 +1,3 @@
-// creating arrays for books and customers
-
-const { log } = require("console");
-
 const books = [
     { id: 1, title: 'Book A', price: 300, stock: 20 },
     { id: 2, title: 'Book B', price: 399, stock: 10 },
@@ -115,7 +111,7 @@ const uniqueBooksList = removeDuplicates(books);
 const bookIds = [2, 3]; // Chosen book IDs
 const chosenBooks = getChoosenBooks(bookIds);
 
-const bookbill = prepareBill(customers[0], chosenBooks); // Prepare the bill for the first customer
+const bookbill = prepareBill(customers[0], chosenBooks); 
 
 // Output
 console.log("Unique Books: ", uniqueBooksList);
